@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.App {
+  margin: auto;
+  width: 100%;
+}
+h1 {
+  margin-bottom: 50px !important;
+  letter-spacing: 2.2px;
+  text-align: center;
+  font-size: 2.3rem;
+  /* font-weight: 500; */
+}
+.userloginPanel {
+  width: 80%;
+  padding-top: 4rem;
+  margin: auto;
+}
+
+.brand-navigation {
+  background-color: #06070d;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 100%;
+  height: 54px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.navigation a {
+  text-decoration: none;
+  padding: 3em;
+  color: #dbdbe2;
+}
+
+.logo-nav {
+  max-width: 100px;
+}
+
+.button-dark {
+  height: 28x;
+  padding: 1px 20px;
+  border-radius: 4px;
+  background-color: #00e59b;
+  border-style: none;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 26px;
+}
+.Home-table {
+  width: 51%;
+  margin: auto;
+}
+.Home-table h1 {
+  margin-top: 60px;
+}
+
+.seachinpu7 {
+  width: 50%;
+  margin: 24px 5px;
+}
+
+table {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ece9e9;
+}
+tr:hover {
+  background: #c5f7ff !important;
+  cursor: pointer;
+}
+th,
+td {
+  /* cell */
+  padding: 0.75rem;
+  font-size: 0.9375rem;
+}
+
+th {
+  /* header cell */
+  font-weight: 700;
+  text-align: left;
+  color: #272838;
+  border-bottom: 2px solid #eb9486;
+
+  position: sticky;
+  top: 0;
+  background-color: #f9f8f8;
+}
+
+td {
+  color: #7e7f9a;
+}
+.ujjk_0-2 {
+  border-right: 1px solid #c5c5c5;
+}
+.capital {
+  display: flex;
+  margin-top: 19rem;
+  font-size: 45px;
+  font-weight: 700;
+  justify-content: center;
+  text-shadow: -4px 1px 5px #b7b7b7;
+}
+
+.alert {
+  position: fixed;
+  width: 17%;
+  top: 62px;
+  right: 41%;
+}
+
+@media screen and (max-width: 1200px) {
+  .ujjk_0-2 {
+    border-right: none;
+  }
+}
